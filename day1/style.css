@@ -72,13 +72,13 @@ hr {
     margin: 0 5px;
 }
 
-.body {
+.content {
     /*width: 90%;*/
     height: 1000px;
     padding: 30px 50px 20px;
 }
 
-.title {
+.content-top {
     /*height: 400px;*/
     /*width: 100%;*/
     font-family: sans-serif;
@@ -95,7 +95,7 @@ hr {
 /*}*/
 
 
-.introduce {
+.content-center {
     /*height: 300px;*/
     /*width: 100%;*/
     padding: 40px 0;
@@ -110,8 +110,9 @@ hr {
     text-align: center;
 }
 
-.content {
+.content_foot {
     height: 700px;
     width: 100%;
+    padding: 30px 0;
 }
 
