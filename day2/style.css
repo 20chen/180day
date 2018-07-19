@@ -1,0 +1,52 @@
+body {
+    background-color: dimgray;
+}
+
+.big-size {
+    font-size: 50px;
+    font-family: fantasy;
+}
+
+.medium-size {
+    font-size: 25px;
+    font-family: cursive;
+
+}
+
+.font-style {
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.first-part {
+    padding: 25px 0 25px 0;
+}
+
+.third-part {
+    /*display: inline;*/
+    height: fit-content;
+    width: fit-content;
+    margin: 30px auto;
+
+}
+
+.con_line02 {
+    padding: 5px;
+}
+
+.image-style {
+    height: 320px;
+    width: 180px;
+    float: left;
+    margin-right: 40px;
+}
+
+.neko {
+    float: left;
+}
+
+.video{
+    width: fit-content;
+    margin: 5px auto;
+}
