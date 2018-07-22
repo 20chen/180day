@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+}
+body {
+    background-color: darkgrey;
+    margin: 0px;
+
+}
+
+.tit {
+    text-align: center;
+    margin: 25px 0 35px 0;
+    font-size: 35px;
+    font-family: sans-serif;
+    text-shadow: -1px -1px 1px white;
+
+}
+
+.container {
+    height: 580px;
+    width: 930px;
+    background-color: beige;
+    margin: auto;
+    padding: 40px 40px;
+    box-shadow: 2px 2px 2px dimgray;
+    box-sizing: border-box;
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+    border: 1px solid lightgray;
+
+}
+
+#btn1 {
+    background-color: red;
+}
+
+#btn2 {
+    background-color: yellow;
+    margin: 20px 0 20px;
+}
+
+#btn3 {
+    background-color: blue;
+    margin: 20px 0 20px;
+}
+
+#btn4 {
+    background-color: white;
+}
+
+.sketchpad {
+    display: inline-block;
+    height: 500px;
+    width: 700px;
+    float: right;
+    border: 1px solid;
+    background-color: white;
+}
+
+.content {
+    display: inline-block;
+}
+
+.footnote {
+    height: 50px;
+    width: 120px;
+    background-color: blue;
+}
+
+.row1 {
+    height: 100px;
+    font-size: 0px;
+    /*font-size 为0,消除inline-block引起的缝隙*/
+    /*border-bottom: 10px solid;*/
+}
+
+.row2 {
+    height: 180px;
+    font-size: 0px;
+    /*border-bottom: 10px solid;*/
+}
+
+.row3 {
+    font-size: 0px;
+    height: 80px;
+
+}
+.row4{
+    font-size: 0px;
+    height: 110px;
+}
+.border-btm {
+    border-bottom: 10px solid;
+}
+
+.col1{
+    width: 100px;
+    height: 100%;
+}
+
+.col2{
+    width: 300px;
+    height: 100%;
+}
+
+.col3{
+    width: 90px;
+    height: 100%;
+}
+
+.col4{
+    width: 180px;
+    height: 100%;
+    display: inline-block;
+}
+
+.border-r{
+    border-right: 10px solid;
+    display: inline-block;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+<div class="tit">Pick a color and paint the canvas</div>
+<div class="container">
+
+    <div class="content">
+        <div id="btn1" class="square" onclick="getColor(this)"></div>
+        <div id="btn2" class="square" onclick="getColor(this)"></div>
+        <div id="btn3" class="square" onclick="getColor(this)"></div>
+        <div id="btn4" class="square" onclick="getColor(this)"></div>
+    </div>
+
+    <div class="content sketchpad white">
+        <div class="row1 border-btm">
+            <div class="col1 border-r " onclick="SetColor(this)"></div>
+            <div class="col2 border-r" onclick="SetColor(this)"></div>
+            <div class="col3 border-r" onclick="SetColor(this)"></div>
+            <div class="col4" onclick="SetColor(this)"></div>
+        </div>
+        <div class="row2 border-btm">
+            <div class="col1 border-r" onclick="SetColor(this)"></div>
+            <div class="col2 border-r" onclick="SetColor(this)"></div>
+            <div class="col3 border-r" onclick="SetColor(this)"></div>
+            <div class="col4" onclick="SetColor(this)"></div>
+        </div>
+        <div class="row3 border-btm">
+            <div class="col1 border-r" onclick="SetColor(this)"></div>
+            <div class="col2 border-r" onclick="SetColor(this)"></div>
+            <div class="col3 border-r" onclick="SetColor(this)"></div>
+            <div class="col4" onclick="SetColor(this)"></div>
+        </div>
+        <div class="row4">
+            <div class="col1 border-r" onclick="SetColor(this)"></div>
+            <div class="col2 border-r" onclick="SetColor(this)"></div>
+            <div class="col3 border-r" onclick="SetColor(this)"></div>
+            <div class="col4" onclick="SetColor(this)"></div>
+        </div>
+    </div>
+</div>
+<div class="footnote"></div>
+</body>
+</html>
