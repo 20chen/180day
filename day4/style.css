@@ -1,6 +1,7 @@
-*{
+* {
     margin: 0px;
 }
+
 body {
     background-color: darkgrey;
     margin: 0px;
@@ -67,7 +68,10 @@ body {
 .footnote {
     height: 50px;
     width: 120px;
-    background-color: blue;
+    background-color: rgba(117, 117, 117, 0.45);
+    line-height: 45px;
+    text-align: center;
+    font-size: 25px;
 }
 
 .row1 {
@@ -88,36 +92,38 @@ body {
     height: 80px;
 
 }
-.row4{
+
+.row4 {
     font-size: 0px;
     height: 110px;
 }
+
 .border-btm {
     border-bottom: 10px solid;
 }
 
-.col1{
+.col1 {
     width: 100px;
     height: 100%;
 }
 
-.col2{
+.col2 {
     width: 300px;
     height: 100%;
 }
 
-.col3{
+.col3 {
     width: 90px;
     height: 100%;
 }
 
-.col4{
+.col4 {
     width: 180px;
     height: 100%;
     display: inline-block;
 }
 
-.border-r{
+.border-r {
     border-right: 10px solid;
     display: inline-block;
 }
