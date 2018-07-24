@@ -1,3 +1,50 @@
-.dynamic-text{
-    font-size: 45px;
+.font-style{
+    font-size: 30px;
+    font-family: Courier;
+    letter-spacing: 2px;
+    line-height: 40px;
+    white-space: nowrap;
+}
+
+#refer{
+    margin-top: 20px;
+    /*float: right;*/
+    text-align: right;
+}
+
+a:link{
+    text-decoration: none;
+    color: steelblue;
+    font-size: 20px;
+    /*text-align: right;*/
+
+}
+
+.warn{
+    font-size: 15px;
+    color: rgba(113,113,113,0.5);
+    font-family: Courier;
+    /*height: 50%;*/
+    /*margin-bottom: 1500px;*/
+}
+
+.content{
+    height: 4000px;
+    margin: 100px 45px;
+}
+
+#static-text{
+    position: fixed;
+    float: left;
+    margin-top: 30px;
+}
+
+#dynamic-text{
+    margin-top: 1000px;
+    width: max-content;
+    /*white-space: nowrap;*/
+}
+
+nav{
+    text-align: right;
 }
