@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    background-color: black;
+}
+
+#main{
+    height: 700px;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.bgc_brown{
+    background-color: #696969;
+}
+
+.row{
+    height: 100px;
+    width: 100%;
+    font-size: 0px;
+
+}
+
+.col{
+    width: 100px;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+
+}
