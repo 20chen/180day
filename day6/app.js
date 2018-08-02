@@ -38,7 +38,7 @@ function setStyle() {
             dateRender('Wed','Boom!Wednesday!');
             break;
         case 4:
-            dateRender('Thu','4');
+            dateRender('Thu','Thirsty Thursday, yo!');
             break;
         case 5:
             dateRender('Fri','5');
