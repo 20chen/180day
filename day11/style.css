@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+}
+
+.container{
+    text-align: center;
+    color: white;
+    width: 700px;
+    font-family: monospace;
+    /*窗口变化时文字不换行*/
+    white-space: nowrap;
+    margin: 30px auto;
+    /*padding: 30px;*/
+}
+.tit{
+    font-size: 50px;
+    position: relative;
+
+}
+.ticker{
+    position: relative;
+    height: 150px;
+    width: 567px;
+    margin: 20px auto;
+}
+.ticker1{
+    position: relative;
+    height: 150px;
+    width: 431px;
+    margin: 20px auto;
+}
+.cl{
+    font-size: 120px;
+    position: absolute;
+}
+
+
+
+.home{
+    left:10px;
+    top:10px;
+    position: absolute;
+}
+
+.blog{
+    right:10px;
+    top:10px;
+    position: absolute;
+}
+
+.off{
+    color: rgba(255,255,255,0.1);
+    position: absolute;
+    font-size: 120px;
+
+}
+
+/*测试*/
+.div1{
+    background-color: steelblue;
+    position: relative;
+    z-index: 1;
+}
+.div2{
+    background-color: blueviolet;
+    position: relative;
+    z-index: 2;
+}
+.div3{
+    background-color: yellow;
+    position: relative;
+    z-index: 3;
+}
+
+.footer{
+    position:absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+
+}
+
+.foot-style{
+    width: 500px;
+    height: 58px;
+    position: relative;
+    margin: auto;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 20px 20px 0px 0px;
+    font-family: monospace;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:link{
+    text-decoration: none;
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
