@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+}
+.container{
+    width: 1000px;
+    height: 800px;
+    margin: 15px auto;
+}
+
+.col{
+    width: 200px;
+    float: left;
+    text-align: center;
+    margin: 50px;
+}
+
+.image-style{
+    margin: 25px;
+
+}
+
+测试
+.image-style1{
+    animation: move-zoom 1s;
+    /*animation-duration: 0.5s;*/
+    /*animation-iteration-count: 1;*/
+    /*animation-direction: alternate;*/
+    /*animation-timing-function: ease;*/
+
+}
+
+/*.image-style1 > img{*/
+    /*animation: rot1 1s infinite;*/
+
+/*}*/
+
+@keyframes shake{
+
+    0%,100%{transform:translateX(0);}
+
+    10%,30%,50%,70%,90%{transform:translateX(-15px);}
+
+    20%,40%,60%,80%{transform:translateX(15px);}
+
+}
+
+@keyframes swing{
+    20%{-webkit-transform:rotate(15deg);}
+    40%{-webkit-transform:rotate(-10deg);}
+
+    60%{-webkit-transform:rotate(5deg);}
+
+    80%{-webkit-transform:rotate(-5deg);}
+
+    100%{-webkit-transform:rotate(0);}
+
+}
+
+@keyframes rot {
+    20% {
+        transform: rotate(-45deg);
+        /*animation-timing-function: linear;*/
+    }
+
+    100%{
+        transform: rotate(1080deg);
+    }
+
+}
+
+@keyframes zoom_out {
+    70%{
+        transform: scale(2);
+        transition-duration: 1s;
+    }
+    80%{
+        transform: scale(0.8);
+        transition-duration: 0.3s;
+    }
+    90%{
+        transform: scale(1);
+        transition-duration: 0.1s;
+    }
+    95%{
+        transform: scale(0.9);
+        transition-duration: 0.1s;
+    }
+}
+
+
+@keyframes move_rot {
+    40%{
+        transform: translate(-45px,-100px)
+                    rotate(-15deg);
+    }
+    50%{
+        transform: translate(0,0)
+                    rotate(0deg);
+    }
+    90%{
+        transform: translate(45px,-100px)
+                    rotate(15deg);
+    }
+
+}
+
+@keyframes move_zoom {
+    40%{
+        transform: translate(-45px,-100px)
+        scale(2);
+    }
+    50%{
+        transform: translate(0,0)
+        scale(1);
+    }
+    90%{
+        transform: translate(45px,-100px)
+        scale(2);
+    }
+}
+
