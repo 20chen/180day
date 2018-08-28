@@ -1,0 +1,69 @@
+.container{
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+    margin: 20px;
+    white-space: nowrap;
+}
+
+.shaker{
+    position: relative;
+    display: inline-block;
+    font-size: 30px;
+    font-family: monospace;
+    width: 350px;
+    height: 530px;
+    vertical-align: top;
+}
+
+.tit{
+    color: red;
+    border-bottom: 1px solid blue;
+    padding-bottom: 10px;
+
+}
+
+
+.center{
+    display: inline-block;
+    width: 200px;
+    padding-top: 200px;color: green;
+    white-space: normal;
+}
+
+.hand-container{
+    margin-top: 100px;
+    display: inline-block;
+}
+
+.btn-container{
+    position: absolute;
+    bottom: 0px;
+    left: 19px;
+    /*margin-top: 30px;*/
+}
+
+.btn{
+    display: inline-block;
+    font-size: 15px;
+    width: 90px;
+    height: 30px;
+    background-color: gray;
+    line-height: 30px;
+}
+
+@keyframes shake {
+    0%, 100% {-webkit-transform: translateY(0);}
+    14%, 43%, 71%, 95%, 100% {-webkit-transform: translateY(30px);
+        -webkit-animation-timing-function: ease-out; }
+    29%, 57%, 86% {-webkit-transform: translateY(-30px);
+        -webkit-animation-timing-function: ease-out}
+}
+
+.shake{
+    animation: shake 1.5s;
+}
+
+.result{
+    display: none;
+}
